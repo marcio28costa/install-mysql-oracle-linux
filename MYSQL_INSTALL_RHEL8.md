@@ -46,7 +46,13 @@ Destina-se a ambientes corporativos para:
 ## 1. Download do repositório MySQL
 
 ```bash
+onde encontrar:
+https://dev.mysql.com/downloads/repo/yum/
+
 wget https://dev.mysql.com/get/mysql84-community-release-el8-2.noarch.rpm
+
+wget https://dev.mysql.com/get/mysql84-community-release-el10-2.noarch.rpm #oracle linux 10
+
 ```
 
 ---
