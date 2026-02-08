@@ -71,6 +71,11 @@ sudo dnf install -y mysql84-community-release-el8-2.noarch.rpm
 sudo dnf install -y dnf-utils
 sudo dnf config-manager --disable mysql-8.4-lts-community
 sudo dnf config-manager --enable mysql80-community
+
+verificando repositorio.
+
+dnf repolist all | grep mysql
+
 ```
 
 ---
